@@ -1,3 +1,6 @@
+ /*Write a program to enter two numbers and find their sum.*/
+
+
 import java.util.*;
 
 class sum{
