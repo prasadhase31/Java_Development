@@ -1,3 +1,11 @@
+/*
+11111
+22221
+33321
+44321
+54321
+*/
+
 class p4{
 	
 	public static void main(String[] args) {
