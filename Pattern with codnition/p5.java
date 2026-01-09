@@ -1,3 +1,11 @@
+/*
+12345
+22345
+33345
+44445
+55555
+*/
+
 class p5{
     public static void main(String[] args) {
 
@@ -10,7 +18,7 @@ class p5{
                     System.out.print(i);
 
                 } else {
-                    
+
                     System.out.print(j);
                 }
             }
