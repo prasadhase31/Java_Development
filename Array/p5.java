@@ -7,7 +7,7 @@ class P5 {
         Scanner sc=new Scanner(System.in);
 
         System.out.print("Enter array elements");
-        for(int i=0;i<n;i++){
+        for(int i=0;i<arr.length;i++){
             arr[i]=sc.nextInt();
         }
         System.out.print("Reversed array =");
