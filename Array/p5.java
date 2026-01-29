@@ -1,7 +1,8 @@
 import java.util.Scanner;
 class P5 {
     public static void main(String[] args) {
-
+         
+         
         int arr[]=new int[n];
 
         Scanner sc=new Scanner(System.in);

@@ -1,3 +1,6 @@
+/*From a given array, calculate the sum of all odd elements only.*/
+
+
 class p6{
 
     static int sumOdd(int arr[]){
