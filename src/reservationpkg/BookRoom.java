@@ -1,6 +1,6 @@
 package reservationpkg;
-
-import roompkg.Room
+import java.util.Scanner;
+import roompkg.Room;
 class BookRoom{
 	
      public static void main(String[] args) {
@@ -11,15 +11,15 @@ class BookRoom{
      	int roomNo=sc.nextInt();
 
      	System.out.println("Enter room type :");
-     	String type=sc.nextLine();
+     	String type=sc.next();
 
      	System.out.println("Enter rate per night :");
      	double rate=sc.nextDouble();
 
      	System.out.println("Enter discount :");
-     	double discount=sc.nextDouble
+     	double discount=sc.nextDouble();
 
-     	Room r1=new Room(roomNO,type,rate,discount);
+     	Room r1=new Room(roomNo,type,rate,discount);
 
      	System.out.println("------------------------------------");
 
@@ -30,6 +30,8 @@ class BookRoom{
      	System.out.println("Enter Customer ID :");
      	int custId=sc.nextInt();
 
+     	sc.nextLine();
+
      	System.out.println("Enter Customer name :");
      	String name=sc.nextLine();
 
@@ -39,8 +41,8 @@ class BookRoom{
      	Reservation r2=new Reservation(resId,custId,name,nights);
 
 
-     	double total=room.calculateRoomCost(nights);
-     	reservation.setTotalAmount(total);
+     	double total=r1.calculateRoomCost(nights);
+     	r2.setTotalAmount(total);
 
      	r1.displayRoomDetails();
      	r2.displayReservationDetails();

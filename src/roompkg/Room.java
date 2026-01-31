@@ -14,11 +14,11 @@ public class Room{
 		this.discount=discount;
 	}
 
-	public void getRoomType(){
+	public String getRoomType(){
 		return roomType;
 	}
 
-	public void getRatePerNight(){
+	public double getRatePerNight(){
 		return ratePerNight;
 	}
 
@@ -30,9 +30,9 @@ public class Room{
 		System.out.println("Room No :"+roomNo);
 		System.out.println("Room Type :"+roomType);
 		System.out.println("Room Rate Per Night :"+ratePerNight);
-	}   System.out.println("Discount :"+discount);
+	   System.out.println("Discount :"+discount);
 	}
-	
+	}
 
 	
 
