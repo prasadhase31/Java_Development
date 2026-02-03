@@ -33,7 +33,7 @@ class BookRoom{
      	sc.nextLine();
 
      	System.out.println("Enter Customer name :");
-     	String name=sc.nextLine();
+     	String name=sc.next();
 
      	System.out.println("Enter Number Of Nights :");
      	int nights=sc.nextInt();
