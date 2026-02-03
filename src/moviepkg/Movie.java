@@ -1,4 +1,4 @@
-package movie;
+package moviepkg;
 
 public class Movie{
 	

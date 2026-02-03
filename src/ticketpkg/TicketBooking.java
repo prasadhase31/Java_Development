@@ -15,7 +15,7 @@ public class TicketBooking{
 		this.noOfTickets=noOfTickets;
 		this.totalAmount=totalAmount;
 	}
-   public int setBookingId(){
+   public void setBookingId(int bookingId){
       this.bookingId=bookingId;
    }
    public int getBookingId(){
@@ -24,7 +24,7 @@ public class TicketBooking{
    public void displayTicketDetails(){
    	System.out.println("Booking Id :"+bookingId);
    	System.out.println("Customer Id :"+custId);
-   	System.out.println("Customer Name :"+custId);
+   	System.out.println("Customer Name :"+custName);
    	System.out.println("Number Of Tickets :"+noOfTickets);
    	System.out.println("Total Amount :"+totalAmount);
    }
