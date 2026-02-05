@@ -12,7 +12,7 @@ public class Car{
    	this.carId=carId;
    	this.model=model;
    	this.brand=brand;
-   	this.pricePerDay;
+   	this.pricePerDay=pricePerDay;
    	this.discount=discount;
    }
    public double calculateRent(int days){
