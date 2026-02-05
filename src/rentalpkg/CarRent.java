@@ -37,6 +37,7 @@ class CarRent{
 		System.out.println("Enter Customer Id:");
 		int custId=sc.nextInt();
 
+         sc.nextLine();
 		System.out.println("Enter Customer Name:");
 		String custName=sc.nextLine();
 
