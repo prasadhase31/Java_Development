@@ -1,4 +1,4 @@
-package order1;
+package order1pkg;
 
 public class Order1{
 	private int orderId;
@@ -14,6 +14,9 @@ public class Order1{
 		this.quantity=quantity;
 		this.totalAmount=totalAmount;
 	}
+	 public void setTotalAmount(double totalAmount){
+        this.totalAmount = totalAmount;
+	    }
 	
 	public void displayOrderDetails(){
 		System.out.println("Order Id :"+orderId);

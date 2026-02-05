@@ -1,7 +1,7 @@
 package order1pkg;
 import java.util.Scanner;
 import productpkg.Product;
-import order1.Order1;
+import order1pkg.Order1;
 
 class PlaceOrder{
 	
@@ -47,7 +47,7 @@ class PlaceOrder{
        System.out.println("Enter Total Amount:");
        double total=sc.nextDouble();
 
-       Order1 o1=new Order1(ordid,custid,name,quantity,total);
+       Order1 o1=new Order1(ordid,custid,custName,quantity,total);
 
        double finalPrice=p1.getFinalPrice();
        double totalPayable=finalPrice*quantity;
