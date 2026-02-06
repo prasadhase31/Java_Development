@@ -1,3 +1,5 @@
+//Single Inheritance
+
 class Animal{
 	public int x=10;
 	public void eat(){
