@@ -39,7 +39,7 @@ class Loan{
 		this.annualInterest=annualInterest;
 	}
 
-	public void setNumberOfYears(Date noOfYears){
+	public void setNumberOfYears(int noOfYears){
 		this.noOfYears=noOfYears;
 	}
 
@@ -63,6 +63,16 @@ class p3{
 	
 	public static void main(String[] args) {
 		
+     Loan loan=new Loan(5.5,5,500000);
+
+     System.out.println("Annual Interest Rate :"+loan.getAnnualInterest());
+     System.out.println("Number of Years :"+loan.getNumberOfYears());
+     System.out.println("Loan Amount :"+loan.getLoanAmount());
+     System.out.println("Loan Date :"+loan.getLoanDate());
+
+     System.out.println("Monthly Amount :"+loan.getMonthlyPayment());
+     System.out.println("Total Amount :"+loan.getTotalPayment());
+
 
 	}
 }
