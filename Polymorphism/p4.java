@@ -1,4 +1,4 @@
-class TV{
+public class TV{
 	 int channel;
 	 int volLevel;
 	 boolean on;
