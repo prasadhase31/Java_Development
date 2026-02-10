@@ -7,11 +7,13 @@ class Shape{
 	}
 }
  class Circle extends Shape{
+ 	@Override
  	public void draw(){
  		System.out.println("Draw Circle:");
  	}
  }
  class Rectangle extends Shape{
+ 	@Override
  	public void draw(){
  		System.out.println("Draw Rectangle:");
  	}
