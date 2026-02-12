@@ -1,3 +1,5 @@
+//Average of Odd and Even Elements
+
 class p4{
 	
 	 public static void main(String[] args) {

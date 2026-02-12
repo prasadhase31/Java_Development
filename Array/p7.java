@@ -1,3 +1,5 @@
+//Average of Odd and Even Elements
+
 import java.util.*;
 class p7{
 	
