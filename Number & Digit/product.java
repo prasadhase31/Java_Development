@@ -1,4 +1,6 @@
-miimport java.util.*;
+//Product of number
+
+import java.util.*;
 
 class product{
 	

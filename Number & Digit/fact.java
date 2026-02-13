@@ -1,3 +1,5 @@
+//factors of given number
+
 import java.util.*;
 
 class FactorsOfNumber {

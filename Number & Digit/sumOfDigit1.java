@@ -1,3 +1,5 @@
+//Sum of digit
+
 import java.util.*;
 
 class sumOfDigit1{

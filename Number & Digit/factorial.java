@@ -1,3 +1,5 @@
+//Factorial of Number
+
 import java.util.*;
 class factorial{
 

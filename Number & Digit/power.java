@@ -1,3 +1,5 @@
+//Power of Number
+
 import java.util.*;
 
 class power{

@@ -1,3 +1,5 @@
+//count number of digits
+
 import java.util.*;
 
 class count{

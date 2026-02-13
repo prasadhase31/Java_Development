@@ -1,3 +1,5 @@
+//find first and last digit
+
 import java.util.*;
 
 class findDigit{
