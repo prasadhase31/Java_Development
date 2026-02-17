@@ -1,3 +1,5 @@
+//swap two numbers
+
 import java.util.*;
 class Swap{
 	
@@ -12,10 +14,15 @@ class Swap{
 	  int num2=sc.nextInt();
 
 	  int temp;
-
+/*
 	  temp=num1;
 	  num1=num2;
 	  num2=temp;
+	or
+	  */
+	  num1=num1+num2;
+	  num2=num1-num2;
+	  num1=num1-num2;
 
 	  System.out.println("After swap:");
 	  System.out.println("num1="+num1);
