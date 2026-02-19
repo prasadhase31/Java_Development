@@ -1,4 +1,4 @@
-//Palindrome
+//Number is Palindrome or not
 
 import java.util.*;
 
