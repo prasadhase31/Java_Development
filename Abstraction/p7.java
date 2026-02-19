@@ -8,14 +8,14 @@ abstract class Animal{
     abstract void eat();
 
     public void walk(){
-    	System.out.println("Animal walks on legs ");
+    	System.out.println("Animal walks on "+legs+"legs ");
     }
 
 }
 class Spider extends Animal{
 
 	public Spider(){
-		super(int legs);
+		super(8);
 	}
 	@Override
 	public void eat(){
@@ -24,22 +24,19 @@ class Spider extends Animal{
 }
 interface Pet{
 
-	String name;
+	public String getName();
 
-	public String getName(){
-		return name;
-	}
 	public void setName(String name);
-
+     
+     void play();
 	}
-	void play();
 
 
 class Cat extends Animal implements Pet{
 	String name;
 
 	public Cat(String name){
-		super(int legs);
+		super(4);
 		this.name=name;
 
 	}
@@ -72,13 +69,52 @@ class Fish extends Animal implements Pet{
 		super(0);
 	}
 	@Override
-	public void eat()
+	public void eat(){
+		System.out.println("fish eats flakes");
+	}
+	@Override
+	public void walk(){
+		System.out.println("fish cant walk");
+	}
+	@Override
+	public String getName(){
+		return name;
+	}
+	@Override
+	public void setName(String name){
+		this.name=name;
+	}
+	@Override
+	public void play(){
+		System.out.println("fish swims around playfully");
+	}
 }
 
 class p7{
 	
 	public static void main(String[] args) {
 		
+		Fish f1=new Fish();
+		Cat c1=new Cat();
+		Animal a1=new Fish();
+		Animal a2=new Spider();
+		Pet p1=new Cat();
+
+		f1.play();
+		f1.eat();
+		f1.walk();
+
+		c1.play();
+		c1.eat();
+		c1.walk();
+
+		p1.play();
+
+		a1.walk();
+		a1.eat();
+
+		a2.eat();
+		a2.walk();
 
 	}
 }
