@@ -1,3 +1,11 @@
+/*
+a
+ba
+cba
+dcba
+edcba
+*/
+
 class p22{
 	
 	public static void main(String[] args) {

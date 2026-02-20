@@ -1,3 +1,11 @@
+/*
+11111
+2222
+333
+44
+5
+*/
+
 class p26{
 	
 	public static void main(String[] args) {

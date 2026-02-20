@@ -1,3 +1,11 @@
+/*
+E
+ED
+EDC
+EDCB
+EDCBA
+*/
+
 class p23{
 	
 	public static void main(String[] args) {

@@ -1,3 +1,11 @@
+/*
+e
+de
+cde
+bcde
+abcde
+*/
+
 class p24{
 	
 	public static void main(String[] args) {
