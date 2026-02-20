@@ -1,3 +1,11 @@
+/*
+12345
+12345
+12345
+12345
+12345
+*/
+
 class p6{
 	
 	public static void main(String[] args) {

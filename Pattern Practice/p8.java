@@ -1,3 +1,11 @@
+/*
+AAAAA
+BBBBB
+CCCCC
+DDDDD
+EEEEE
+*/
+
 class p8{
 
 	public static void main(String[] args) {
