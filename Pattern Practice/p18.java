@@ -1,3 +1,11 @@
+/*
+5
+45
+345
+2345
+12345
+*/
+
 class p18{
 	
 	public static void main(String[] args) {

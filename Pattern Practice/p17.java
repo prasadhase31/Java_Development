@@ -1,3 +1,11 @@
+/*
+5
+54
+543
+5432
+54321
+*/
+
 class p17{
 	
 	public static void main(String[] args) {

@@ -1,3 +1,11 @@
+/*
+e
+dd
+ccc
+bbbb
+aaaaa
+*/
+
 class p20{
 	
 	public static void main(String[] args) {
