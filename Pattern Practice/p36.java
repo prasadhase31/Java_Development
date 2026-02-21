@@ -1,3 +1,11 @@
+/*
+EDCBA
+EDCB
+EDC
+ED
+E
+*/
+
 class p36{
 	
 	public static void main(String[] args) {

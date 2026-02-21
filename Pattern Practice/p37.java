@@ -1,3 +1,11 @@
+/*
+edcba
+dcba
+cba
+ba
+a
+*/
+
 class p37{
 	
 	public static void main(String[] args) {

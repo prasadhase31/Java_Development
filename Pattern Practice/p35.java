@@ -1,3 +1,11 @@
+/*
+abcde
+bcde
+cde
+de
+e
+*/
+
 class p35{
 	
 	public static void main(String[] args) {

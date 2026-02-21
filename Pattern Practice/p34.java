@@ -1,3 +1,11 @@
+/*
+ABCDE
+ABCD
+ABC
+AB
+A
+*/
+
 class p34{
 	
 	public static void main(String[] args) {
