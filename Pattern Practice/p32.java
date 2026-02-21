@@ -1,3 +1,11 @@
+/*
+AAAAA
+BBBB
+CCC
+DD
+E
+*/
+
 class p32{
 	
 	public static void main(String[] args) {

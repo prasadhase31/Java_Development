@@ -1,3 +1,11 @@
+/*
+12345
+2345
+345
+45
+5
+*/
+
 class p29{
 	
 	public static void main(String[] args) {

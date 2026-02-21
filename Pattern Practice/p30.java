@@ -1,3 +1,11 @@
+/*
+54321
+4321
+321
+21
+1
+*/
+
 class p30{
 	
 	public static void main(String[] args) {
