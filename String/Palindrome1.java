@@ -6,7 +6,7 @@ class Palindrome1{
 	
 	public static void main(String[] args) {
 		
-		String str="nayan";
+		String str="nitin";
 		int start=0;
 		int end=str.length()-1;
 		boolean isPalindrome=true;
