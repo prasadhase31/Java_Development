@@ -12,7 +12,7 @@ public class Duplicate {
 
                 if(ch[i] == ch[j]) {
                     System.out.println(ch[j]);
-                    break;   // duplicate ekdach print hoil
+                    break;  
                 }
             }
         }
