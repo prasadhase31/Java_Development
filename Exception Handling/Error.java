@@ -1,7 +1,7 @@
 class Error{
 	
 	public static void recursiveCall() {
-	
+	    recursiveCall();
 	}
 	public static void main(String args[]){
 		try{
