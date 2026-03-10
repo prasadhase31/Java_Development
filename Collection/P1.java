@@ -16,5 +16,17 @@ class P1{
      System.out.println(family);
      System.out.println("E remove(index)"+family.remove(0));
 
+
+     ArrayList<String>family1=new ArrayList<String>();
+     family1.add("Shubham");
+     family1.add("Sharvil");
+     family1.add("Sonali");
+
+     family.addAll(family);
+     System.out.println("contains All"+family.containsAll(family1));
+
+     family.removeAll(family1);
+     System.out.println(family);
+
 	}
 }
