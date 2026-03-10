@@ -34,12 +34,18 @@ class P1{
      	System.out.println(ob);
      System.out.println("**********************");
 
+     //public T[] toArray
      String names[]=new String[family.size()];
 
      names=family.toArray(names);
      for(String name:names){
      	System.out.println(name);
      }
+
+     //iterator
      Iterator<String> itr=family.iterator();
+     while(itr.hasNext()){
+     	System.out.println(itr.next());
+     }
 	}
 }
