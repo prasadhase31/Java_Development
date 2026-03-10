@@ -27,6 +27,19 @@ class P1{
 
      family.removeAll(family1);
      System.out.println(family);
+     
+     Object arr[]=family.toArray();
 
+     for(Object ob:arr)
+     	System.out.println(ob);
+     System.out.println("**********************");
+
+     String names[]=new String[family.size()];
+
+     names=family.toArray(names);
+     for(String name:names){
+     	System.out.println(name);
+     }
+     Iterator<String> itr=family.iterator();
 	}
 }
