@@ -10,10 +10,16 @@ class MyThread extends Thread{
 	public static void main(String args[]){
 
 		MyThread t1=new MyThread("Thread 1",3);
-		MyThread t1=new MyThread("Thread 2",7);
-		MyThread t1=new MyThread("Thread 3",5);
-		MyThread t1=new MyThread("Thread 4",7);
-		MyThread t1=new MyThread("Thread 5",4);
+		MyThread t2=new MyThread("Thread 2",7);
+		MyThread t3=new MyThread("Thread 3",5);
+		MyThread t4=new MyThread("Thread 4",7);
+		MyThread t5=new MyThread("Thread 5",4);
+
+		t1.start();
+		t2.start();
+		t3.start();
+		t4.start();
+		t5.start();
 	}
 	}
 	
