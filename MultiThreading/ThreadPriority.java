@@ -1,13 +1,13 @@
-class MyThread extends Thread{
+class ThreadPriority extends Thread{
 	
 	public void run(){
 		System.out.println("Thread name:"+Thread.currentThread().getName());
 		System.out.println("Thread Priority:"+Thread.currentThread().getPriority());
 	}
 	public static void main(String[] args) {
-	MyThread t1=new MyThread();
-	MyThread t2=new MyThread();
-	MyThread t3=new MyThread();
+	ThreadPriority t1=new ThreadPriority();
+	ThreadPriority t2=new ThreadPriority();
+	ThreadPriority t3=new ThreadPriority();
 
 		t1.setPriority(Thread.MIN_PRIORITY);
 		t2.setPriority(Thread.NORM_PRIORITY);
