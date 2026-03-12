@@ -11,7 +11,13 @@ public class ThreadJoin extends Thread{
 
 
 		t1.start();
-		t1.join();
+		try{
+            t1.join();   // main thread waits for t1
+        }
+        catch(InterruptedException e){
+            e.printStackTrace();
+        }
+		t1.start();
 		
 	}
 }
