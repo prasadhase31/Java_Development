@@ -25,7 +25,7 @@ public class Test{
 		Demo d1=new Demo();
 
 		Synchronized1 s1=new Synchronized1(d1);
-		Synchronized1 s2=new Synchronized1(d2);
+		Synchronized1 s2=new Synchronized1(d1);
 
 		s1.start();
 		s2.start();
