@@ -9,6 +9,10 @@ class Deadlock{
 				public void run(){
 					synchronized(lock1){
 						System.out.println("Thread 1:locked lock1");
+
+						synchronized(lock2){
+							System.out.println("Thread 1:locked lock2");
+						}
 					}
 				}
 			}
