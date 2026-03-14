@@ -15,6 +15,14 @@ class Deadlock{
 						}
 					}
 				}
+			};
+
+			Thread t2=new Thread(){
+				public void run(){
+					synchronized(lock2){
+						System.out.println("Thread 2:locked lock");
+					}
+				}
 			}
 		}
 	}
