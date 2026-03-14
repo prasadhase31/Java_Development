@@ -20,7 +20,11 @@ class Deadlock{
 			Thread t2=new Thread(){
 				public void run(){
 					synchronized(lock2){
-						System.out.println("Thread 2:locked lock");
+						System.out.println("Thread 2:locked lock2");
+
+						synchronized(lock1){
+							System.out.println("Thread 2:locked lock1");
+						}
 					}
 				}
 			}
