@@ -10,6 +10,6 @@ public class Sum{
 	public static void main(String[] args) {
 		int n=5;
 		int result=sum(n);
-		System.out.println("Sum of first" +n+ "natural numbers is:"+result);
+		System.out.println("Sum of first" + n + "natural numbers is:"+result);
 	}
 }
