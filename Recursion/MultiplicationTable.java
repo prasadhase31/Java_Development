@@ -2,7 +2,7 @@ public class MultiplicationTable {
 
     static void printTable(int n, int i) {
 
-        if(i > 10)     // base condition
+        if(i > 5)     // base condition
             return;
 
         System.out.println(n + " x " + i + " = " + (n*i));
@@ -16,4 +16,4 @@ public class MultiplicationTable {
 
         printTable(n, 1);
     }
-}
+} 
