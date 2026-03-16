@@ -1,4 +1,4 @@
-public class Product {
+ class Product{
 
     static int multiply(int a, int b) {
 
