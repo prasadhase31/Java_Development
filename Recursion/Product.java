@@ -4,14 +4,14 @@
 
         if(b == 0)        // base condition
             return 0;
-
+        else
         return a + multiply(a, b-1);   // recursive call
     }
 
     public static void main(String[] args) {
 
-        int a = 4;
-        int b = 3;
+        int a = 24;
+        int b = 8;
 
         int result = multiply(a, b);
 
