@@ -5,7 +5,7 @@ public class MultiplicationTable {
         if(i > 5)     // base condition
             return;
 
-        System.out.println(n + " x " + i + " = " + (n*i));
+        System.out.println("The multipilcation of "+ n + "x" + i + " is: " +(n*i));
 
         printTable(n, i+1);   // recursive call
     }
