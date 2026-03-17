@@ -1,3 +1,5 @@
+ //Write a Java program to find the product of two numbers using recursion
+
  class Product{
 
     static int multiply(int a, int b) {

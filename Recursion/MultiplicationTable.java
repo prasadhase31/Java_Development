@@ -1,3 +1,5 @@
+//Write a Java program to print the multiplication table of a number using recursion.
+
 public class MultiplicationTable {
 
     static void printTable(int n, int i) {
