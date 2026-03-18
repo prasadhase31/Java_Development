@@ -1,16 +1,13 @@
 class Fibonacci{
-	
-	public static int Fib(int n){
-      
-      if(n<=1)
-      return n;
 
-      return Fib(n-1)+Fib(n-2);
+	public static int fib(int n){
+		if(n<=1)
+			return 1;
 
+		return fib(n-1)+fib(n-2);
 	}
-	public static void main(String args[]){
-
-	int n=6;
-	System.out.println("Fibonacci:"+Fib(n));
+	public static void main(String[] args) {
+		int n=9;
+		System.out.println("Fibonacci:"+fib(n));
 	}
 }
