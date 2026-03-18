@@ -1,16 +1,16 @@
 class Reverse{
 	
-	public static int rev(int n){
+	public static int reverse(int n,int rev){
 
 	  if(n==0)
 
 	  return rev;
 
-	 return rev(n/10,rev*10,n);
+	 return reverse(n/10,rev*10+n%10);
 	}
 	public static void main(String args[]){
 
 	int n=12345;
-	System.out.println("Reverse:"+rev(n,0));
+	System.out.println("Reverse:"+reverse(n,0));
 	}
 }
