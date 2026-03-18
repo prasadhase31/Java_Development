@@ -8,6 +8,6 @@ class Print{
 		System.out.println(n+" ");
 	}
 	public static void main(String[] args) {
-		print(5);
+		print(10);
 	}
 }
