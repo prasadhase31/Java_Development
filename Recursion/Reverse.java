@@ -10,7 +10,7 @@ class Reverse{
 	}
 	public static void main(String args[]){
 
-	int n=12345;
+	int n=54321;
 	System.out.println("Reverse:"+reverse(n,0));
 	}
 }
