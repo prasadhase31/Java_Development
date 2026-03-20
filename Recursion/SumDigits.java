@@ -1,3 +1,7 @@
+/*
+Write a Java program to calculate the sum of digits of a number using recursion.
+*/
+
 class SumDigits{
 	
 	public static int sumDigits(int n){
