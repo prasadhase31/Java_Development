@@ -25,7 +25,7 @@ class EvenOddNumbers {
     }
 
     public static void main(String[] args) {
-        int start = 1, end = 10;
+        int start = 1, end = 20;
 
         System.out.print("Even numbers: ");
         printEven(start, end);
