@@ -8,8 +8,11 @@ class Demo1{
 
 		list.add("Hii");
 		list.add("I");
+		list.addFirst("Hey");
 		list.add("Am");
+		//list.addLast("Hase");
 		list.add("Prasad");
+		list.addLast("Hase");
 
 		System.out.println(list);
 	}
