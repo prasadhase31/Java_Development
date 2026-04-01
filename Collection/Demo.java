@@ -8,7 +8,11 @@ class Demo{
 
 		list.add(12);
 		list.add(24);
-		list.
+		list.add(36);
+
+		for(int num:list){
+			System.out.println(num);
+		}
 
 	}
 	
