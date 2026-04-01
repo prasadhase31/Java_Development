@@ -1,3 +1,5 @@
+//using for-each loop
+
 import java.util.*;
 
 class Demo{
