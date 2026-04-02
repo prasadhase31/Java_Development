@@ -1,3 +1,7 @@
+//Write a   Java  program to count the total number of negative elements in an array.
+
+
+
 import java.util.*;
 class NegativeCount{
 	
