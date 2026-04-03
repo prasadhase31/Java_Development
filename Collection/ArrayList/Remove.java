@@ -1,3 +1,5 @@
+//Write a   Java  program to delete an element from an array at specified position.
+
 import java.util.*;
 class Remove{
 	 

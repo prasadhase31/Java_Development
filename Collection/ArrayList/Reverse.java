@@ -15,7 +15,7 @@ class Reverse{
 
      System.out.println("Original List:"+list);
 
-     ArrayList<Integer>reverseList=new ArrayList<>();
+     ArrayList<Integer>reverseList=new ArrayList<>();//reverse element store 
 
       for(int i=list.size()-1;i>=0;i--){
       	 reverseList.add(list.get(i));

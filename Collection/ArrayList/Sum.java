@@ -1,3 +1,5 @@
+//Write a   Java  program to find the sum of all array elements.  
+
 import java.util.*;
 
 class Sum{
