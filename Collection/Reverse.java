@@ -1,3 +1,6 @@
+//Write a   Java  program to find the reverse of an array.
+
+
 import java.util.*;
 class Reverse{
 	
