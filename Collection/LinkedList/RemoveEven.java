@@ -1,3 +1,4 @@
+import java.util.*;
 class RemoveEven{
 	
 	public static void main(String[] args) {
@@ -9,6 +10,8 @@ class RemoveEven{
 	list.add(7);
 	list.add(5);
 
+	System.out.println("Original List:"+list);
+
 	Iterator<Integer>it=list.iterator();
 
 	 while(it.hasNext()){
@@ -17,5 +20,6 @@ class RemoveEven{
 	 		it.remove();
 	 	}
 	 }
+	 System.out.println("Updated List:"+list);
 	}
 }
