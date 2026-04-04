@@ -10,9 +10,10 @@ class Max{
 		int max=list.get(0);
 
 		for(int num:list){
-			if(){
-
+			if(num>max){
+              max=num;
 			}
 		}
+		System.out.println("Maximum element is:"+max);
 	}
 }
