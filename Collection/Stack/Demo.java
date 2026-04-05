@@ -11,5 +11,10 @@ class Demo{
 		stack.push(30);
 
 		System.out.println(stack);
+
+		stack.pop();
+		stack.peek();
+
+		System.out.println(stack);
 	}
 }
