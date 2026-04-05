@@ -12,8 +12,9 @@ class Demo{
 
 		System.out.println(stack);
 
-		stack.pop();
-		stack.peek();
+		//stack.pop();
+		System.out.println(stack.peek());
+		stack.search(20);
 
 		System.out.println(stack);
 	}
