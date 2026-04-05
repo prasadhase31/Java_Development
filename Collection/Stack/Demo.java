@@ -14,8 +14,12 @@ class Demo{
 
 		//stack.pop();
 		System.out.println(stack.peek());
-		stack.search(20);
+		//stack.search(20);
 
-		System.out.println(stack);
+		System.out.println(stack.search(20));
+
+	    
+
+		stack.pop();
 	}
 }
