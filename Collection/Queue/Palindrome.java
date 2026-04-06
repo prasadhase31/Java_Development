@@ -1,3 +1,4 @@
+import java.util.*;
 class Palindrome{
 
     public static void main(String[] args) {
@@ -23,8 +24,7 @@ for(int num : q){
     }
 }
 
-System.out.println(isPalindrome); 
-}
+System.out.println(isPalindrome); }
 }
 
 
