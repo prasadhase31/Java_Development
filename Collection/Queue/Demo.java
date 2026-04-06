@@ -11,10 +11,14 @@ class Demo{
 		queue.offer(30);
 		queue.offer(40);
 
-		for(int num:queue){
+		//for(int num:queue){
 
-			System.out.println(num);
+		System.out.println(queue.peek());
+
+		//queue.poll();
+
+			System.out.println(queue);
 		}
 	}
 
-}
+//}
