@@ -15,7 +15,7 @@ class Demo{
 
 		System.out.println(queue.peek());
 
-		//queue.poll();
+		queue.poll();
 
 			System.out.println(queue);
 		}
