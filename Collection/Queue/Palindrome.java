@@ -24,7 +24,8 @@ for(int num : q){
     }
 }
 
-System.out.println(isPalindrome); }
+System.out.println(isPalindrome); 
+}
 }
 
 
