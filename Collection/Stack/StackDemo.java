@@ -11,3 +11,8 @@ class StackDemo {
         stack.push(30);
 
      System.out.println("Stack: " + stack);
+
+     System.out.println("Top element: " + stack.peek());
+
+        
+        stack.pop();
