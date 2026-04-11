@@ -1,16 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
 </head>
-<body>  
+
+<body>
     <h1>Hello, World!</h1>
-    <p>Welcome to my first HTML page.</p> 
-   
+    <p>Welcome to my first HTML page.</p>
+
     <input type="text">
     <button>Submit</button>
-      <script src="Hello.js"></script>
+
+    <form action="/www.goggle.com">
+        <input type="text">
+        <button>Form Filled</button>
+    </form>
+    <script src="Hello.js"></script>
 </body>
+
 </html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Events</title>
+</head>
+<body>
+
+    <h2>Form Example</h2>
+
+    <form id="myForm">
+        Name: <input type="text" id="name"><br><br>
+        Email: <input type="email" id="email"><br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        let form = document.getElementById("myForm");
+        let nameInput = document.getElementById("name");
+
+        // 1. Submit Event
+        form.addEventListener("submit", function(e) {
+            e.preventDefault(); // stop reload
+            console.log("Form Submitted");
+        });
+
+        // 2. Input Event
+        nameInput.addEventListener("input", function(e) {
+            console.log("Typing:", e.target.value);
+        });
+
+        // 3. Change Event
+        nameInput.addEventListener("change", function(e) {
+            console.log("Changed:", e.target.value);
+        });
+
+        // 4. Focus Event
+        nameInput.addEventListener("focus", function() {
+            console.log("Input Focused");
+        });
+
+        // 5. Blur Event
+        nameInput.addEventListener("blur", function() {
+            console.log("Input Lost Focus");
+        });
+
+    </script>
+
+</body>
+</html> -->
