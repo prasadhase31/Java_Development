@@ -7,12 +7,12 @@
 //     console.log("click the button");
 // });
 
-inp.addEventListener("keydown", function ( ) {
-    console.log("key", event.key); 
-    console.log("code", event.code);
-     console.log("Key Code", event.keyCode);
-    console.log("key was pressed");
-});
+// inp.addEventListener("keydown", function ( ) {
+//     console.log("key", event.key); 
+//     console.log("code", event.code);
+//      console.log("Key Code", event.keyCode);
+//     console.log("key was pressed");
+// });
 
 inp.addEventListener("keyup", function () {
 
