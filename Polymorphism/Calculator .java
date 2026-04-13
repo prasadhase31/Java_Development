@@ -12,3 +12,9 @@ class Calculator {
         return a + b;
     }
 }
+
+class Demo {
+    public static void main(String[] args) {
+
+        Calculator obj = new Calculator();
+
