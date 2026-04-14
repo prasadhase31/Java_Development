@@ -20,3 +20,7 @@ public class Main {
 
         Singleton obj1 = Singleton.getInstance();
         Singleton obj2 = Singleton.getInstance();
+       
+         System.out.println(obj1 == obj2); // true
+    }
+}
