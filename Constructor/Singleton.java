@@ -11,3 +11,6 @@ class Singleton {
         if(instance == null) {
             instance = new Singleton();
         }
+        return instance;
+    }
+}
