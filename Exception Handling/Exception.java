@@ -9,9 +9,16 @@ class Exception{
 		catch(NullPointerException e){
 			System.out.println("NullPointerException:"+e.getMessage());
 		}
+
 		int arr[]={1,2,3};
 		try{
-			System.out.println()
+			System.out.println(arr[5]);
 		}
+		catch(ArrayIndexOutOfBoundsException){
+			System.out.println("ArrayIndexOutOfBoundsException"+e.getMessage());
+		}
+        try{
+        	int result=10/0;
+        }
 	}
 }
