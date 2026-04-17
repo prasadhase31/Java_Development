@@ -14,11 +14,14 @@ class Exception{
 		try{
 			System.out.println(arr[5]);
 		}
-		catch(ArrayIndexOutOfBoundsException){
-			System.out.println("ArrayIndexOutOfBoundsException"+e.getMessage());
+		catch(ArrayIndexOutOfBoundsException e){
+			System.out.println("ArrayIndexOutOfBoundsException:"+e.getMessage());
 		}
         try{
         	int result=10/0;
+        }
+        catch(ArithmeticException e){
+        	System.out.println("ArithmeticException:"+e.getMessage());
         }
 	}
 }
