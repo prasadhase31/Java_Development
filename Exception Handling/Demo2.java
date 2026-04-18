@@ -6,4 +6,12 @@ class Demo2{
 	}
 
 	//final method
+	final void show(){
+		System.out.println("This is a final method");
+	}
+
+	public static void main(String[] args) {
+		
+		//final variable
+	}
 }
