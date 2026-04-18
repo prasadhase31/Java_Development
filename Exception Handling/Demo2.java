@@ -13,5 +13,15 @@ class Demo2{
 	public static void main(String[] args) {
 		
 		//final variable
+		final int x=10;
+		System.out.println("Final variable x="+x);
+
+		//finally block
+		try{
+			int a=10/0;
+		}
+		catch(ArithmeticException e){
+			System.out.println("ArithmeticException"+e.getMessage());
+		}
 	}
 }
