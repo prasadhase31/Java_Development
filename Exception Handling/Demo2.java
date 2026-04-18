@@ -23,5 +23,15 @@ class Demo2{
 		catch(ArithmeticException e){
 			System.out.println("ArithmeticException"+e.getMessage());
 		}
+		finally{
+			System.out.println("Finally block always executes");
+		}
+
+		Demo2 d=new Demo2();
+		d.show();
+
+		d=null;
+
+		System.gc();
 	}
 }
