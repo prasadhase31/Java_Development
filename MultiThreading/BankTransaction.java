@@ -16,6 +16,7 @@ class BankTransaction extends Thread{
 	System.out.println(transctionName+ "Completed");
 }
 
+
 	public static void main(String[] args) {
 		BankTransaction b1=new BankTransaction("Deposit");
 		BankTransaction b2=new BankTransaction("Withdraw");
