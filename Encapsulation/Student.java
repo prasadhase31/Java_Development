@@ -27,7 +27,7 @@ class Main{
 public class Student{
 	public static void main(String[] args) {
 		
-		Main m1=new Student();
+		Main m1=new Main();
 		m1.setName("Prasad");
 		m1.setAge(23);
 
