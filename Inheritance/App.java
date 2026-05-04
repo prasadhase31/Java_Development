@@ -8,7 +8,7 @@ class Animal{
 	}	
 }
 
-		class Dog extends Animal{
+   class Dog extends Animal{
 		public int y=11;
 		public void bark(){
 			System.out.println("Bark");
