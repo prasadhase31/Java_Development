@@ -11,5 +11,9 @@ class Demo{
 		dq.offerFirst(5);
 
 		System.out.println(dq);
+
+		dq.pollLast();
+
+		System.out.println(dq);
 	}
 }
