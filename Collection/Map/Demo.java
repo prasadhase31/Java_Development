@@ -14,8 +14,9 @@ class Demo{
 		System.out.println(map.get(102));
 
 		map.remove(103);
+		System.out.println(map.containsKey(101));
 
-		System.out.println(map);
+		//System.out.println(map);
 
 
 	}
