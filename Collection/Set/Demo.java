@@ -8,8 +8,14 @@ class Demo{
     set.add("Prasad");
     set.add("Siddhu");
     set.add("Sharvil");
-    set.add("Shubh");
+    set.add("Prasad");
 
     System.out.println(set);
+
+    System.out.println(set.contains("Siddhu"));
+
+    System.out.println(set.size());
+
+
 	}
 }
