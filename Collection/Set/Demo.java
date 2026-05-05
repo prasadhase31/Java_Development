@@ -16,6 +16,8 @@ class Demo{
 
     System.out.println(set.size());
 
+    set.remove("Prasad");
+
 
 	}
 }
