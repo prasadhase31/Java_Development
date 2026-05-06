@@ -17,5 +17,19 @@ class IdComparator implements Comparator<Student>{
 }
 
 public class Demo{
+	public static void main(String[] args) {
+		 
+		 ArrayList<Student>list=new ArrayList<>();
+
+		 list.add(new Student(3,"A"));
+		 list.add(new Student(2,"B"));
+		 list.add(new Student(1,"C"));
+
+		 Collections.sort(list,new IdComparator());
+
+		 for(Student s:list){
+		 	System.out.println(s.id+" "+s.name);
+		 }
+	}
 	
 }
