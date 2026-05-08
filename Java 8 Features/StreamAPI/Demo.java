@@ -16,5 +16,12 @@ class Demo{
 
         //.sorted()
         //.forEach(System.out::println);
+
+        //.distinct()
+        //.forEach(System.out::println);
+
+        .limit(3)
+        .forEach(System.out::println);
+
 	}
 }
