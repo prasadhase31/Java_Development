@@ -1,3 +1,5 @@
+//Here all of the above are Intermediate Operations
+
 import java.util.List;
 import java.util.Arrays;
 class Demo{
