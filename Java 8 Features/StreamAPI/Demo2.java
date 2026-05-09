@@ -6,7 +6,7 @@ class Demo2{
 		List<Integer>list=Arrays.asList(10,20,30,40);
 
 		int sum=list.stream()
-		             .reduce(0,(a,b)-> a+b); //sum
+		             .reduce(0,Integer::sum); //sum
 
 		       System.out.println("Sum="+sum);
 	}

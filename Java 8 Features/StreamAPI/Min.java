@@ -6,10 +6,10 @@ class Min{
 
 		List<Integer>list=Arrays.asList(10,40,32,67);
 
-		int max=list.stream()
-		            .reduce(Integer.MIN_VALUE,(a,b) -> a < b ? a:b);
+		int min=list.stream()
+		            .min(Integer::compare)
+                    .get();
 
-		   System.out.println(max);
-
+           System.out.println("Min"+min);
 	}
 }
