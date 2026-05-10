@@ -8,7 +8,8 @@ class Max{
 
 		int max=list.stream()
 		            .reduce(Integer.MIN_VALUE,(a,b) -> a > b ? a:b);
-		            //.max(Integer::max); //2nd option
+		            //.max(Integer::compare); //2nd option
+		            .get();
 
 		   System.out.println(max);
 
