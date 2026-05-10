@@ -1,3 +1,5 @@
+//for multiplication
+
 import java.util.*;
 class Demo3{
 	
