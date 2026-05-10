@@ -1,3 +1,5 @@
+//for sum
+
 import java.util.*;
 class Demo2{
 	
