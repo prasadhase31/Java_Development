@@ -15,5 +15,11 @@ public class Test{
 	static Optional<Demo>getDemo(){
 		return Optional.ofNullable(null);
 	}
-	
+
+	public static void main(String args[]){
+
+		Optional<Demo> demo=getDemo();
+
+		demo.ifPresent
+	}
 }
