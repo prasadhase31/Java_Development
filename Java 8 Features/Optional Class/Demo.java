@@ -20,6 +20,6 @@ public class Test{
 
 		Optional<Demo> demo=getDemo();
 
-		demo.ifPresent
+		demo.ifPresent(d -> System.out.println(d.name));
 	}
 }
