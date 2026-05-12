@@ -5,7 +5,7 @@ class NativeAPI{
 		
 		try{
 
-			Class.forName("oracle.jdbc.driver.MySqlDriver");
+			Class.forName("com.mysql.cj.jdbc.Driver");
 
 			Connection con=DriverManager.getConnection(
 				"jdbc:")
