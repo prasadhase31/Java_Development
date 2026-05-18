@@ -20,6 +20,21 @@ class Student{
 		return id;
 	}
 
+	public String getName(){
+		return name;
+	}
+
+	class Demo{
+
+		public static void main(String[] args) {
+			
+			Student s1=new Student();
+
+			s1.setId(12);
+			
+		}
+	}
+
 
 
 }
