@@ -3,6 +3,11 @@ class Student{
 	private int id;
 	private String name;
 
+	Student(){
+
+		
+	}
+
 	Student(int id,String name){
 		this.id=id;
 		this.name=name;
@@ -31,7 +36,11 @@ class Student{
 			Student s1=new Student();
 
 			s1.setId(12);
-			
+			s1.setName("Prasad");
+
+			System.out.println(s1.getId());
+			System.out.println(s1.getName());
+
 		}
 	}
 
