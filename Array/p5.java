@@ -1,4 +1,4 @@
-//Reverse Array
+//Reverse Array using scanner
 
 import java.util.Scanner;
 class p5 {
