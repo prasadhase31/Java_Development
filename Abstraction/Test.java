@@ -31,5 +31,6 @@ class Test{
 		//Dog d=new Dog();
 
 		a.sound();
+		a.sleep();
 	}
 }
