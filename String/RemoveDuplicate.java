@@ -14,6 +14,8 @@ class RemoveDuplicate{
 				result=result+ch;
 			}
 		}
+
+		System.out.println(result);
 		
 	}
 
