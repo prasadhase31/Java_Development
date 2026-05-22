@@ -7,7 +7,7 @@ class Compare{
 		String s1="Prasad";
 		String s2=new String("Prasad");
 
-		if(s1.equals(s2)){
+		if(s1==(s2){
 			System.out.println("String is equals");
 		}
 		else{
