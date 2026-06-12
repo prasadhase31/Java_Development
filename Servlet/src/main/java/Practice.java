@@ -3,8 +3,11 @@ import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.ServletConfig;
+import jakarta.servlet.annotation.*;
 
-@WebServlet("/welcome")
+@WebServlet(value="/welcome",initParams= {
+		@WebInitParam(name="company",value="OpenAI")
+})
 public class Practice extends HttpServlet {
 
 	protected void doGet(HttpServletRequest req,HttpServletResponse res)
@@ -12,7 +15,7 @@ public class Practice extends HttpServlet {
 		
 		ServletConfig config=getServletConfig();
 		
-		String str=config.getServlet
-		res.getWriter().println("Welcome");
+		String company=getServletConfig().getInitParameter("company");
+		res.getWriter().println(company);
 	}
 }
