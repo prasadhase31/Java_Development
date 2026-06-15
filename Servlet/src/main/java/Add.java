@@ -1,6 +1,9 @@
 import java.io.*;
 import jakarta.servlet.*;
 import jakarta.servlet.http.*;
+import jakarta.servlet.annotation.WebServlet;
+
+@WebServlet("/add")
 public class Add extends HttpServlet {
 	
 	public void doGet(HttpServletRequest req,HttpServletResponse res)throws IOException,ServletException{
@@ -10,7 +13,7 @@ public class Add extends HttpServlet {
 		
 		int k=i+j;
 		
-		res.getWriter().println(k);
+		res.getWriter().println("Result:"+k);
 	}
 
 }
