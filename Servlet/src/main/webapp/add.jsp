@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>              <%--Directive Tag --%>
+    pageEncoding="UTF-8"%>                          <%--Directive Tag --%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,10 +14,9 @@ int j=Integer.parseInt(request.getParameter("num2"));
 
 int k=i+j;
 
+%>                                         <%-- Scriptlet Tag --%>
 
-%>
-
-<%= k %>
+<h2>Addition = <%= k %></h2>                                  <%-- Expression Tag --%>
 
 </body>
 </html>
