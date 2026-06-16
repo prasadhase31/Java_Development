@@ -6,13 +6,15 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
-<body>
+<body bgcolor="yellow">
 <%
 
-int i=Integer.parseInt(req.getParameter("num1"));
-int j=Integer.parseInt(req.getParameter("num2"));
+int i=Integer.parseInt(request.getParameter("num1"));
+int j=Integer.parseInt(request.getParameter("num2"));
 
 int k=i+j;
+
+out.println("Result:"+k);
 
 %>
 </body>
