@@ -8,9 +8,9 @@
 </head>
 <body>
 
-      <jsp:include page="header.jsp"/>
-      
-      <h3>Home Page Content</h3>
-      
+    <jsp:include page="header.jsp"/>
+
+    <h3>Home page content</h3>
+
 </body>
 </html>
