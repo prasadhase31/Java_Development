@@ -7,6 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
+  
+  <h2>Error Occurred</h2>
+  
+  Message:<%= exception.getMessage() %>
 
 </body>
 </html>
