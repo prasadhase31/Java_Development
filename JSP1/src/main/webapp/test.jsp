@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<% page errorPage="exception.jsp" %>
+<% page errorPage="error.jsp" %>
 
 <% int x=10/0; %>
 </body>
