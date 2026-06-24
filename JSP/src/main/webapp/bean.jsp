@@ -8,6 +8,7 @@
 </head>
 <body>
   <jsp:useBean id="emp"
-
+  class="com.demo.Employee"/>
+ Been Created Successfully
 </body>
 </html>
