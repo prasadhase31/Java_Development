@@ -7,6 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+ <form action="LoginServlet" method="post">
+ 
+ Name:
+ <input type="text" name="username">
+ 
+ <input type="submit" value="Login">
+ </form>
 </body>
 </html>
