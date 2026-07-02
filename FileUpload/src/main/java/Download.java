@@ -23,6 +23,12 @@ public class Download extends HttpServlet {
 		OutputStream os=res.getOutputStream();
 		
 		byte[] buffer=new byte[4096];
+		
+		int bytesRead;
+		
+		while((bytesRead=fis.read(buffer)) !=-1) {
+			os.write(buffer,0,bytesRead);
+		}
 	}
 
 }
