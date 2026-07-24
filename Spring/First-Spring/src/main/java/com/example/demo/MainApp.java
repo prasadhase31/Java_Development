@@ -9,5 +9,7 @@ public class MainApp {
        ApplicationContext context=new ClassPathXmlApplicationContext("applicationBeanContext.xml");
 
        GreetingService greetingService=(GreetingService) context.getBean("myBean");
+
+       greetingService.sayHello();
     }
 }
