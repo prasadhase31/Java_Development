@@ -1,4 +1,4 @@
-package com.example.devices.springannotationpractice;
+package com.example.springannotationpractice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
