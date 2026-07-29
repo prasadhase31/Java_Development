@@ -3,8 +3,6 @@ package com.example.springannotationpractice;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import java.sql.SQLOutput;
-
 @Component
 public class Student {
 
@@ -13,6 +11,8 @@ public class Student {
 
     @Autowired
     private Printer printer;
+
+
     public void study(){
 
         laptop.start();
