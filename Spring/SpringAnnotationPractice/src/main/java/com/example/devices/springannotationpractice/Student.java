@@ -1,4 +1,4 @@
-package com.example.springannotationpractice;
+package com.example.devices.springannotationpractice;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -11,6 +11,9 @@ public class Student {
 
     @Autowired
     private Printer printer;
+
+    @Autowired
+    private Mouse mouse;
 
     public void study(){
         laptop.start();

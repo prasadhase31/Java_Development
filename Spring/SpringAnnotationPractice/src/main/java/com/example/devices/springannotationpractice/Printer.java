@@ -1,4 +1,4 @@
-package com.example.springannotationpractice;
+package com.example.devices.springannotationpractice;
 
 public class Printer {
     public void print(){

@@ -1,4 +1,4 @@
-package com.example.springannotationpractice;
+package com.example.devices.springannotationpractice;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
