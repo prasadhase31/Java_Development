@@ -15,7 +15,7 @@ public class SpringAnnotationPracticeApplication {
 
         Laptop l1=context.getBean(Laptop.class);
         Laptop l2=context.getBean(Laptop.class);
-        
+
         Student student=context.getBean(Student.class);
         student.study();
     }
