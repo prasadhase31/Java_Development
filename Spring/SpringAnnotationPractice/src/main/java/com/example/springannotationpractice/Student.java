@@ -14,7 +14,7 @@ public class Student {
     private Printer printer;
 
     @Autowired
-    @Qualifier("petrolEngine")
+   // @Qualifier("petrolEngine")
     private Engine engine;
 
 
