@@ -10,4 +10,7 @@ public class ReportService {
     public ReportService(){
         System.out.println("ReportService Object Created");
     }
+    public void generateReport(){
+        System.out.println("Report Generated");
+    }
 }
