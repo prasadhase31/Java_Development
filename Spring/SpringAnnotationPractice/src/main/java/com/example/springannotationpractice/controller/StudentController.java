@@ -20,7 +20,6 @@ public class StudentController {
     }
 
     public void processStudent() {
-        
 
         System.out.println("Request Received");
 
