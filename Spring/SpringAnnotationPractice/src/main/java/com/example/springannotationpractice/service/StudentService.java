@@ -2,6 +2,7 @@ package com.example.springannotationpractice.service;
 
 import com.example.springannotationpractice.repository.StudentRepository;
 import jakarta.annotation.PostConstruct;
+import jakarta.annotation.PreDestroy;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
@@ -29,8 +30,13 @@ public class StudentService {
         System.out.println("Age: " + age);
 
     }
+
+    @PreDestroy
+    public void cleanup(){
+
+    }
     public void registerStudent() {
-        
+
         System.out.println("Business Logic Executed");
 
         repository.saveStudent();
