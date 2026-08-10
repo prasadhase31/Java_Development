@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 import com.example.springannotationpractice.service.ReportService;
 
 @Service
-@Lazy
+//@Lazy
 public class ReportService {
 
     public ReportService(){
