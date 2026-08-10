@@ -33,7 +33,7 @@ public class StudentService {
 
     @PreDestroy
     public void cleanup(){
-
+        System.out.println("StudentService bean is being destroyed");
     }
     public void registerStudent() {
 
