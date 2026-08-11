@@ -1,10 +1,12 @@
 package com.example.springannotationpractice.controller;
 
+import com.example.springannotationpractice.Student;
 import com.example.springannotationpractice.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 //@Controller
@@ -21,9 +23,9 @@ public class StudentController {
     }
 
     @PostMapping("/student")
-    public String addStudent() {
+    public String addStudent(@RequestBody Student student) {
 
-        return "Student Added Successfully";
+        return "Student Added :"+ student.getName();
 
     }
 
