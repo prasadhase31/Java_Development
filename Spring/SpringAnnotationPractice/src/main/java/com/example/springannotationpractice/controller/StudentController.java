@@ -25,8 +25,9 @@ public class StudentController {
     @PostMapping("/student")
     public String addStudent(@RequestBody Student student) {
 
-        return "Student Added :"+ student.getName();
-
+        return "Student Added :"+ student.getName()
+                            +"," + student.getEmail()
+                            +"," + student.getCourse();
     }
 
     public void processStudent() {
