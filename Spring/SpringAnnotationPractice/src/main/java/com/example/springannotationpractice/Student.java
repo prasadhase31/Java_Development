@@ -1,33 +1,35 @@
 package com.example.springannotationpractice;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.stereotype.Component;
-
-@Component
 public class Student {
 
-    @Autowired
-    private Laptop laptop;
+    private String name;
+    private String email;
+    private String course;
 
-    @Autowired
-    private Printer printer;
-
-    @Autowired
-   // @Qualifier("petrolEngine")
-    private Engine engine;
-
-
-    public void study(){
-
-        laptop.start();
-
-        printer.print();
-
-        engine.start();
-        System.out.println("Student is Studying Spring");
+    public Student() {
     }
 
     public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getCourse() {
+        return course;
+    }
+
+    public void setCourse(String course) {
+        this.course = course;
     }
 }
