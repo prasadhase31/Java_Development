@@ -12,9 +12,9 @@ public class StudentController {
 
     @Autowired
     private StudentService service;
-    
+
     @GetMapping("/student/search")
-    public String searchStudent(@RequestParam String name) {
+    public String searchStudent(@RequestParam("name") String name) {
 
         return "Searching student: " + name;
     }
