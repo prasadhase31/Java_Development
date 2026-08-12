@@ -4,10 +4,7 @@ import com.example.springannotationpractice.Student;
 import com.example.springannotationpractice.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 //@Controller
 @RestController
@@ -16,10 +13,9 @@ public class StudentController {
     @Autowired
     private StudentService service;
 
-    @GetMapping("/student")
-    public String getStudent(){
-
-        return "Student API Working";
+    @GetMapping("/student/{id}")
+    public String getStudent(@PathVariable int id) {
+        return "Student ID: " + id;
     }
 
     @PostMapping("/student")
