@@ -13,9 +13,15 @@ public class StudentController {
     @Autowired
     private StudentService service;
 
-    @GetMapping("/student/{id}")
+  /*  @GetMapping("/student/{id}")
     public String getStudentId(@PathVariable int id) {
         return "Student ID: " + id;
+    }*/
+
+    @GetMapping("/student/search")
+    public String searchStudent(@RequestParam String name) {
+
+        return "Searching student: " + name;
     }
 
     @PostMapping("/student")
