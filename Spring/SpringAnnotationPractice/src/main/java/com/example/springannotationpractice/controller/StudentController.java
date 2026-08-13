@@ -38,7 +38,13 @@ public class StudentController {
                 + student.getEmail()
                 + ", "
                 + student.getCourse();
+
     }
+
+    @DeleteMapping("/student/{id}")
+    public String deleteStudent(@PathVariable("id") int id) {
+
+        return "Student " + id + " Deleted Successfully";
     }
 
     public void processStudent() {
