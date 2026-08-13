@@ -27,6 +27,13 @@ public class StudentController {
                             +"," + student.getCourse();
     }
 
+    @PutMapping("/student/{id}")
+    public String updateStudent(
+            @PathVariable("id") int id,
+            @RequestBody Student student) {
+        
+    }
+
     public void processStudent() {
 
         System.out.println("Request Received");
