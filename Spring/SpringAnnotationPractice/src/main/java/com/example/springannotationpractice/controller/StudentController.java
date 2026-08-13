@@ -31,7 +31,14 @@ public class StudentController {
     public String updateStudent(
             @PathVariable("id") int id,
             @RequestBody Student student) {
-        
+
+        return "Student " + id + " Updated: "
+                + student.getName()
+                + ", "
+                + student.getEmail()
+                + ", "
+                + student.getCourse();
+    }
     }
 
     public void processStudent() {
