@@ -47,6 +47,12 @@ public class StudentController {
         return "Student " + id + " Deleted Successfully";
     }
 
+    @ExceptionHandler(StudentNotFoundException.class)
+    public String handleStudentNotFound(StudentNotFoundException ex) {
+
+        return ex.getMessage();
+    }
+
     public void processStudent() {
 
         System.out.println("Request Received");
