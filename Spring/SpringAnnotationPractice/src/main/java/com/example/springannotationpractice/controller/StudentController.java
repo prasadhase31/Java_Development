@@ -1,6 +1,7 @@
 package com.example.springannotationpractice.controller;
 
 import com.example.springannotationpractice.Student;
+import com.example.springannotationpractice.exception.StudentNotFoundException;
 import com.example.springannotationpractice.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -45,6 +46,13 @@ public class StudentController {
     public String deleteStudent(@PathVariable("id") int id) {
 
         return "Student " + id + " Deleted Successfully";
+    }
+
+    @GetMapping("/student/error")
+    public String testException() {
+
+        throw new StudentNotFoundException("Student not found");
+
     }
 
     @ExceptionHandler(StudentNotFoundException.class)
