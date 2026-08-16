@@ -55,11 +55,6 @@ public class StudentController {
 
     }
 
-    @ExceptionHandler(StudentNotFoundException.class)
-    public String handleStudentNotFound(StudentNotFoundException ex) {
-
-        return ex.getMessage();
-    }
 
     public void processStudent() {
 
