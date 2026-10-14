@@ -15,4 +15,4 @@ class Palindrome{
 			System.out.println("Not Palindrome");
 		}
 	}
-}
+}2
